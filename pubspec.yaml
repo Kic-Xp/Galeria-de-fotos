@@ -1,0 +1,35 @@
+name: ap2_galeria
+description: A new Flutter project.
+
+publish_to: 'none' # Remove esta linha se for publicar para o pub.dev
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.1.2
+  provider: ^6.0.4
+  collection: 1.18.0 # Versão compatível com flutter_test
+  cross_file: ^0.3.4+1
+  flutter_plugin_android_lifecycle: ^2.0.20
+  http: ^1.2.1
+  material_color_utilities: ^0.8.0 # Versão compatível com flutter_test
+  meta: ^1.12.0 # Versão compatível com flutter_test
+  path: ^1.9.0 # Versão compatível com flutter_test
+  image_picker_for_web: ^3.0.2
+  universal_io: ^2.0.4
+  cached_network_image: ^3.2.1
+  flutter_staggered_animations: ^1.0.0
+  video_player: ^2.2.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  matcher: ^0.12.16+1 # Versão compatível com flutter_test
+  test_api: ^0.7.0 # Versão compatível com flutter_test
+
+flutter:
+  uses-material-design: true
